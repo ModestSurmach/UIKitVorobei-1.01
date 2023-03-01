@@ -14,6 +14,7 @@
 		87D623BD29AFB7F500EDFDBD /* UIKitVorobei_1_01.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 87D623BB29AFB7F500EDFDBD /* UIKitVorobei_1_01.xcdatamodeld */; };
 		87D623BF29AFB7F800EDFDBD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 87D623BE29AFB7F800EDFDBD /* Assets.xcassets */; };
 		87D623C229AFB7F800EDFDBD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 87D623C029AFB7F800EDFDBD /* LaunchScreen.storyboard */; };
+		87D623CA29AFC0F000EDFDBD /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87D623C929AFC0F000EDFDBD /* Settings.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		87D623BE29AFB7F800EDFDBD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		87D623C129AFB7F800EDFDBD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		87D623C329AFB7F800EDFDBD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		87D623C929AFC0F000EDFDBD /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		87D623B129AFB7F500EDFDBD /* UIKitVorobei-1.01 */ = {
 			isa = PBXGroup;
 			children = (
+				87D623CB29AFC10E00EDFDBD /* Settings */,
 				87D623B229AFB7F500EDFDBD /* AppDelegate.swift */,
 				87D623B429AFB7F500EDFDBD /* SceneDelegate.swift */,
 				87D623B629AFB7F500EDFDBD /* ViewController.swift */,
@@ -68,6 +71,14 @@
 				87D623BB29AFB7F500EDFDBD /* UIKitVorobei_1_01.xcdatamodeld */,
 			);
 			path = "UIKitVorobei-1.01";
+			sourceTree = "<group>";
+		};
+		87D623CB29AFC10E00EDFDBD /* Settings */ = {
+			isa = PBXGroup;
+			children = (
+				87D623C929AFC0F000EDFDBD /* Settings.swift */,
+			);
+			path = Settings;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,6 +156,7 @@
 				87D623B329AFB7F500EDFDBD /* AppDelegate.swift in Sources */,
 				87D623BD29AFB7F500EDFDBD /* UIKitVorobei_1_01.xcdatamodeld in Sources */,
 				87D623B529AFB7F500EDFDBD /* SceneDelegate.swift in Sources */,
+				87D623CA29AFC0F000EDFDBD /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

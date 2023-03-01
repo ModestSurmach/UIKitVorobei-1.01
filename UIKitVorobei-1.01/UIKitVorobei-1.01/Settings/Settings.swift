@@ -6,3 +6,12 @@
 //
 
 import Foundation
+
+
+class Settings {
+    
+    static let shared = Settings()
+    
+    let cornerRadius: CGFloat = 25
+    
+}
