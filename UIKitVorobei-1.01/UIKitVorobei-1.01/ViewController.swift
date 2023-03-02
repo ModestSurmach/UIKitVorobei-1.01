@@ -11,13 +11,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        myView(sizeSide: 100)
     }
     
-    override func viewWillAppear(_ animated: Bool) {
-        super.viewWillAppear(animated)
-        myView(sizeSide: 100)
-        
-    }
+
     
     
     
